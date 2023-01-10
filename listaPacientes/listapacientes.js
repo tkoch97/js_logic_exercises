@@ -14,7 +14,7 @@ let patients = [
   {
     name: "Julia",
     age: 24,
-    weight: 65,
+    weight: 200,
     height: 165,
   },
   {

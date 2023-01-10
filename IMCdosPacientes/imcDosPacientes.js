@@ -1,4 +1,7 @@
-/*
+// for (index = 0; index < patients.length; index++) {
+//   patientsNames[index] = patients[index].name + patients[index].age;
+// }
+/* 
 Crie uma lista de pacientes
 
 Cada paciente dentro da lista, deverá conter:
@@ -6,13 +9,15 @@ Cada paciente dentro da lista, deverá conter:
   idade
   peso
   altura
+
+Escreva uma lista contendo o nome dos pacientes
 */
 
 let patients = [
   {
     name: "Julia",
     age: 24,
-    weight: 120,
+    weight: 200,
     height: 165,
   },
   {
@@ -63,8 +68,6 @@ function printPatientIMC (patient) {
     return `O(a) paciente ${patient.name} tem o IMC de ${patientIMC}, que configura Obesidade grau III.`
   }
 }
- 
-
 
 for (let patient of patients) {
   let IMCmessage = printPatientIMC(patient)
